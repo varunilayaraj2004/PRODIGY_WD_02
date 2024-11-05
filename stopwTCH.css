@@ -1,0 +1,42 @@
+body 
+{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(48, 51, 59);
+    color:white;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch 
+{
+    text-align: center;
+    padding: 20px;
+    border:solid;
+    border-radius: 100px;
+}
+
+.time 
+{
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+
+.controls button 
+{
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 10px;;
+    font-size: 15pxpx;
+    cursor: pointer;
+}
+
+.laps 
+{
+    margin-top: 20px;
+    text-align: left;
+}
+
+
